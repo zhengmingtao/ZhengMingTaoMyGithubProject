@@ -18,7 +18,7 @@ public class TestServlet  extends HttpServlet {
         ApplicationContext as = new ClassPathXmlApplicationContext("applicationContext.xml");
         TestDao dao = (TestDao) as.getBean("test");
         dao.sayHello();
-        response.getWriter().println("Test has been done!");
+        response.getWriter().println("Test has been done！！！!");
     }
 
     @Override
